@@ -24,3 +24,12 @@ var mywifeTalk = false;
 var me = true;
 console.log(mywifeTalk);
 console.log(me);
+
+// variable typeof number/numberical
+var shongkha = 126;
+console.log(typeof shongkha);
+
+
+// variable typeof string
+var who = "your Boss"
+console.log(typeof who);
