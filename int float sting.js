@@ -9,3 +9,11 @@ var number2 = '52.6';
 number2 = parseFloat(number2); //kono variable string type a thakle take number a shte jog/gun/vag/biyog korar time usekora hoi
 //parseFloat float type number ar khetre use kora hoi --ar int type number thakle parseInt use kora hoi
 console.log(typeof number2);
+console.log(number1 + number2);
+
+
+//jodi number thake kintu ami take string korte chai;
+var number1 = 50;
+var number2 = 52.6;
+number1 = '' + number1; //number k string korte chaile
+console.log(number1 + number2);
