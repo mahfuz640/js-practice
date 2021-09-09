@@ -33,3 +33,9 @@ console.log(typeof shongkha);
 // variable typeof string
 var who = "your Boss"
 console.log(typeof who);
+
+//alada alada string variable ar akotre jog kore dekhano holo and duiti alada variable string ar majhe space kivabe use kora hoi
+var name = "Md. Mahfuzur";
+var name2 = "Rahman";
+var fullName = name + ' ' + name2; // space ar jonno amra '' ata use kore thaki
+console.log(fullName);
