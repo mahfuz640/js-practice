@@ -17,3 +17,11 @@ var number1 = 50;
 var number2 = 52.6;
 number1 = '' + number1; //number k string korte chaile
 console.log(number1 + number2);
+
+
+//kono float number akotre jog kora hole 
+var number1 = 50.4;
+var number2 = 52.55;
+var total = number1 + number2;
+total = total.toFixed(3) //doshmic ar por koi ghor jabe 
+console.log(total);
