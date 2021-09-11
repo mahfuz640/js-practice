@@ -13,3 +13,8 @@ console.log(round);
 var number = 5.0009;
 var result = Math.ceil(number);
 console.log(result);
+
+//kono shongkha jodi 0.99999 ar kasa kasi thake but ate take poroborti purno shongkha kora hoi na ja ase  take purno shongka kora hoi take floor bole
+var number = 1.99999;
+var result = Math.floor(number);
+console.log(result);
