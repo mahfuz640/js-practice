@@ -33,3 +33,5 @@ console.log(result1);
 var number = 5;
 var result = Math.cos(number);
 console.log(result);
+
+//sin,cos,tan etc shob e ay term a kora jai;
