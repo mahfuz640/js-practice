@@ -28,3 +28,8 @@ console.log(result1);
 var shongkha = Math.random() * 100;
 var result1 = Math.round(shongkha);
 console.log(result1);
+
+
+var number = 5;
+var result = Math.cos(number);
+console.log(result);
