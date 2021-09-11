@@ -18,3 +18,13 @@ console.log(result);
 var number = 1.99999;
 var result = Math.floor(number);
 console.log(result);
+
+//kono shongkha k random vhabe ber korar jonno ata bebohar hoi tobe ta doshmic a ashbe 
+var shongkha = Math.random() * 100;
+var result1 = Math.random(shongkha);
+console.log(result1);
+
+//kono shongkha k random vhabe ber korar jonno ata bebohar hoi tobe ta purnoshongkhai ashbe 
+var shongkha = Math.random() * 100;
+var result1 = Math.round(shongkha);
+console.log(result1);
