@@ -15,3 +15,8 @@ console.log(num1Position);
 var age = [12, 50, 44, 66]
 age[0] = 52;
 console.log(age[0])
+
+//amra jodi kono array ar position ber korte chai tahole indexOf use korte hobe
+var age = [12, 50, 44, 66]
+var num1Position = age.indexOf(50)
+console.log(num1Position)
