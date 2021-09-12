@@ -8,3 +8,7 @@ document.write('Assalamualaikum')
 
 //html ar kono tag ar id k call kore print korte pri
 document.getElementById('amr').innerHTML = (' Ami amta desh k valobashi')
+document.getElementById('amro').innerHTML = (' Ami amta desh k valobashi')
+
+//console.log ata amder consle a print hoi
+console.log('Bangladesh')
