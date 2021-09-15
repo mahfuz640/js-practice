@@ -25,3 +25,8 @@ console.log(num1Position)
 var age = [12, 50, 44, 66]
 var num1Position = age.indexOf(556)
 console.log(num1Position)
+
+//.push()
+var age = [12, 50, 44, 66]
+age.push(42);
+console.log(age)
