@@ -29,4 +29,9 @@ console.log(num1Position)
 //.push()
 var age = [12, 50, 44, 66]
 age.push(42);
-console.log(age)
+console.log(age);
+
+//array ar moddhe koita elements ase ta janar jonno .length() use kora hoi
+var age = [12, 50, 44, 66]
+
+console.log(age.length)
