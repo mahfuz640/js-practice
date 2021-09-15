@@ -26,7 +26,7 @@ var age = [12, 50, 44, 66]
 var num1Position = age.indexOf(556)
 console.log(num1Position)
 
-//.push()
+//.push() add kora ar kaz 
 var age = [12, 50, 44, 66]
 age.push(42);
 console.log(age);
@@ -35,3 +35,8 @@ console.log(age);
 var age = [12, 50, 44, 66]
 
 console.log(age.length)
+
+//.pop() bad deya ar kaz 
+var age = [12, 50, 44, 66]
+age.pop()
+console.log(age)
