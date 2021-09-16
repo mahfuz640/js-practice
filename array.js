@@ -40,3 +40,12 @@ console.log(age.length)
 var age = [12, 50, 44, 66]
 age.pop()
 console.log(age)
+    //shift
+var age = ['mas', 'murgi', 'goru']
+age.shift()
+console.log(age)
+
+//add kora ar kaz 
+var age = ['mas', 'murgi', 'goru']
+age.unshift('vaji')
+console.log(age)
