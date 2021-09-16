@@ -45,7 +45,12 @@ var age = ['mas', 'murgi', 'goru']
 age.shift()
 console.log(age)
 
-//add kora ar kaz 
+//unshift add kora ar kaz 
 var age = ['mas', 'murgi', 'goru']
 age.unshift('vaji')
 console.log(age)
+
+//slice
+var age = ['mas', 'murgi', 'goru', 'dim', 'alu', 'polau']
+var part = age.slice(2, 5);
+console.log(part)
