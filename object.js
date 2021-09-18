@@ -30,3 +30,8 @@ console.log(student)
 // new kisu add korea notun kisu tokhon amra eivhabe use korte pare
 student2.namaz = 'johor'
 console.log(student2)
+
+// or 
+
+student2['namaj'] = 'wakto 5'
+console.log(student2)
