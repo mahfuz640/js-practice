@@ -16,3 +16,12 @@ console.log(phoneNo);
 var proName = 'phone'
 var phoneNo = student['phone']
 console.log(phoneNo);
+
+//amra chaile kono list ar man command kore e change kore dite pare
+student2.phone = 7890
+console.log(student2)
+
+// or 
+
+student['phone'] = 52856
+console.log(student)
