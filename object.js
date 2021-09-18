@@ -25,3 +25,8 @@ console.log(student2)
 
 student['phone'] = 52856
 console.log(student)
+
+
+// new kisu add korea notun kisu tokhon amra eivhabe use korte pare
+student2.namaz = 'johor'
+console.log(student2)
