@@ -16,3 +16,10 @@ x = x + y
 y = x - y
 x = x - y
 console.log('after swap:x=', x, "y=", y)
+
+//rules 3 Array ar niyome swap 
+var p = 5
+var q = 8
+console.log('before swap:p=', p, "q=", q);
+[p, q] = [q, p]
+console.log('after swap:p=', p, "q=", q)
