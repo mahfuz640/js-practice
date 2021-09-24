@@ -9,3 +9,7 @@ function getArraySum(numbers) {
 var numbers = [45, 65, 78, 12, 3, 54, 66]
 var result = getArraySum(numbers)
 console.log(result)
+
+//aki function a alada variable use kora reusing
+var total = getArraySum([45, 99, 44, 75, 12, 85])
+console.log(total)
