@@ -9,4 +9,8 @@ console.log(nu)
 const noChange = 12
     // noChange = 55 // ata korle amader error ashbe so ata kora jabe na
 console.log(noChange)
-    // amra shudu number type na amra chaile string a o same jinish use  korte pari
+    // amra shudu number type na amra chaile string a o same jinish use  korte but amra akhane r var use korbo na jekhane por amader change kora lagte pare amra shekhane let ar jekhane ar change kora lagbe na shekhane amra const use korbo
+const manush = "Rahim"
+    //ami ay rahim man te aki variable a rekhe change korte parbo na karon amra akhane const use korese
+
+console.log(manush)
