@@ -1,0 +1,7 @@
+function add(num1, num2) {
+    var total = num1 + num2
+    return total
+}
+var result = add(45, 5) //add nam ar akta function create kore pore amra abar call kortese thn chaile jog biyog gun bhag shob korte pari
+
+console.log(result)
