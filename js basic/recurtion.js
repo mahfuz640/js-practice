@@ -9,3 +9,15 @@ function factorial(n) {
 }
 var result = factorial(5)
 console.log(result)
+
+// recursive 
+function factorialRecursive(num) {
+    if (num == 1) {
+        console.log()
+        return 1;
+    } else {
+        return num * factorialRecursive(num - 1)
+    }
+}
+var result = factorialRecursive(5)
+console.log(result)
