@@ -12,6 +12,8 @@
             margin: 10px;
             padding: 5px;
         }
+        
+        .special h3 {}
     </style>
 </head>
 
@@ -22,7 +24,7 @@
             <p id="first">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, blanditiis.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-            <article>
+            <article class="special">
                 <h3>article-1</h3>
                 <p class="author">athor-1</p>
                 <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, libero!</p>
@@ -49,10 +51,12 @@
         var authors = document.getElementsByClassName("author")
         for (var i = 0; i < authors.length; i++) {
             var element = authors[i];
-            element.innerHTML = 'ami-' + i
+            element.innerHTML = 'ami+i'
             element.style.background = "lightblue"
             element.style.margin = "10px"
         }
+
+        //Quary
     </script>
 </body>
 
