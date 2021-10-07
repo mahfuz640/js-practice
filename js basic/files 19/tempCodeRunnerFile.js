@@ -10,7 +10,7 @@
 //function () amra jodi function k notun kono variable add kore call kori tokhon dekha jabe je function kaz korse na karon amra shekhane retrun use kori nai 
 // tai amra akhane new akta variable use kore return ar maddhome akta function k call korbo so let's go
 
-function evenif(n) {
+function evenify(n) {
     if (n % 2 == 0) {
         return n
     } else {
@@ -18,7 +18,7 @@ function evenif(n) {
     }
     return n;
 }
-var result = evenif(13);
+var result = evenify(13);
 console.log('result:', result);
 
 
