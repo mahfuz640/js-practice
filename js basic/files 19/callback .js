@@ -3,7 +3,7 @@ function explain_callback(name, age, task) {
     console.log('your age', age);
     washHand()
     takeShower()
-    task();
+
 }
 
 function washHand() {
