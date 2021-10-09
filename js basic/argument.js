@@ -14,3 +14,4 @@ function addNumber(num1, num2) {
 }
 var result = addNumber(3, 5, 8, 15)
 console.log(result)
+    // akhane argument use korle akhane error show korbe
