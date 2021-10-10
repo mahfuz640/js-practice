@@ -16,7 +16,7 @@
     <br>
     <button id="first">Click-1</button>
     <button id="second">Click-2</button>
-    <button>Click-3</button>
+    <button id="third">Click-3</button>
     <script>
         function handleClick() {
             console.log("i am h1");
@@ -37,7 +37,10 @@
         }
         const secondButton = document.getElementById("second")
         secondButton.addEventListener("click", handle2)
-            // way-3
+            // way-3 
+        document.getElementById("third").addEventListener("click", function() {
+            document.body.style.color = "green"
+        })
     </script>
 </body>
 
