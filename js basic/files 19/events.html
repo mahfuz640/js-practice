@@ -13,6 +13,10 @@
     <!-- onclick ,onmousemove, onmouseout, etc. type ar shob gulo k mouse event bole-->
     <button onmousemove="handleClic()">Click me</button>
     <button onmouseout="handleClic()">Click me</button>
+    <br>
+    <button id="first">Click-1</button>
+    <button>Click-2</button>
+    <button>Click-3</button>
     <script>
         function handleClick() {
             console.log("i am h1");
@@ -21,6 +25,12 @@
         function handleClic() {
             console.log("i am btn");
         }
+
+        function handle() {
+            document.body.style.backgroundColor = "cyan";
+        }
+        const button1 = document.getElementById("first")
+        first.onclick = handle;
     </script>
 </body>
 
