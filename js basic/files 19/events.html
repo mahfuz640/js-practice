@@ -15,7 +15,7 @@
     <button onmouseout="handleClic()">Click me</button>
     <br>
     <button id="first">Click-1</button>
-    <button>Click-2</button>
+    <button id="second">Click-2</button>
     <button>Click-3</button>
     <script>
         function handleClick() {
@@ -31,6 +31,12 @@
         }
         const button1 = document.getElementById("first")
         first.onclick = handle;
+        // way-2
+        function handle2() {
+            document.body.style.backgroundColor = "tomato"
+        }
+        const secondButton = document.getElementById("second")
+        secondButton.addEventListener("click", handle2)
     </script>
 </body>
 
