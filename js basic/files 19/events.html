@@ -18,6 +18,7 @@
     <button id="second">Click-2</button>
     <button id="third">Click-3</button>
     <script>
+        // 
         function handleClick() {
             console.log("i am h1");
         }
@@ -25,19 +26,19 @@
         function handleClic() {
             console.log("i am btn");
         }
-
+        // id -first
         function handle() {
             document.body.style.backgroundColor = "cyan";
         }
         const button1 = document.getElementById("first")
         first.onclick = handle;
-        // way-2--addEventListener 
+        // way-2--addEventListener : Id second 
         function handle2() {
             document.body.style.backgroundColor = "tomato"
         }
         const secondButton = document.getElementById("second")
         secondButton.addEventListener("click", handle2)
-            // way-3 
+            // way-3 id third 
         document.getElementById("third").addEventListener("click", function() {
             document.body.style.color = "green"
         })
