@@ -21,6 +21,7 @@
     <script>
         document.getElementById('first').addEventListener('click', function(event) {
             console.log('First Item clicked')
+            event.stopPropagation(); //shamne ar agabe na mane tor parent k dhobi na
         })
 
         document.getElementById('myList').addEventListener('click', function(event) {
