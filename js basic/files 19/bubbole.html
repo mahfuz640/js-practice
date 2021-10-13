@@ -19,18 +19,28 @@
         </ul>
     </div>
     <script>
-        document.getElementById('first').addEventListener('click', function(event) {
-            console.log('First Item clicked')
-            event.stopPropagation(); //shamne ar agabe na mane tor parent k dhobi na
-        })
+        var items = document.getElementsByClassName('item');
+        for (let i = 0; i < items.length; i++) {
+            var item = items[i];
+            item.addEventListener('click', function(event) {
+                console.log(event.target) //chaile amra akhane this ba taget je komo akta use korte pari
+            })
+        }
 
-        document.getElementById('myList').addEventListener('click', function(event) {
-            console.log('myList')
-        })
 
-        document.getElementById('container').addEventListener('click', function(event) {
-            console.log('Container clicked')
-        })
+
+        // document.getElementById('first').addEventListener('click', function(event) {
+        //     console.log('First Item clicked')
+        //     event.stopPropagation(); //shamne ar agabe na mane tor parent k dhobi na
+        // })
+
+        // document.getElementById('myList').addEventListener('click', function(event) {
+        //     console.log('myList')
+        // })
+
+        // document.getElementById('container').addEventListener('click', function(event) {
+        //     console.log('Container clicked')
+        // })
     </script>
 </body>
 
