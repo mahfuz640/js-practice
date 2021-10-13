@@ -17,6 +17,7 @@
             <li id="Fourth" class="item">Numquam, quis cumque.</li>
             <li id="fifth" class="item">Magni, numquam nihil?</li>
         </ul>
+        <button id="addNew">Add new item</button>
     </div>
     <script>
         var items = document.getElementsByClassName('item');
@@ -31,7 +32,13 @@
                 }) //click kortle remove hoye jabe child gula
         }
 
+        document.getElementsById('addNew').addEventListener('click', function(event) {
+            var itemParent = document.getElementById('myList')
+            var newItem = document.createElement('li')
+            newItem.innerText = 'Brand New Item'
+            itemparent.appendChild(newItem)
 
+        })
 
         // document.getElementById('first').addEventListener('click', function(event) {
         //     console.log('First Item clicked')
