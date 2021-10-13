@@ -20,23 +20,23 @@
         <button id="addNew">Add new item</button>
     </div>
     <script>
-        var items = document.getElementsByClassName('item');
-        for (let i = 0; i < items.length; i++) {
-            var item = items[i];
-            // item.addEventListener('click', function(event) {
-            //     console.log(this, event.target.innerText) //chaile amra akhane this ba taget je komo akta use korte pari
-            // })
+        // var items = document.getElementsByClassName('item');
+        // for (let i = 0; i < items.length; i++) {
+        //     var item = items[i];
+        //     // item.addEventListener('click', function(event) {
+        //     //     console.log(this, event.target.innerText) //chaile amra akhane this ba taget je komo akta use korte pari
+        //     // })
 
-            item.addEventListener('click', function(event) {
-                    event.target.parentNode.removeChild(event.target)
-                }) //click kortle remove hoye jabe child gula
-        }
+        //     item.addEventListener('click', function(event) {
+        //             event.target.parentNode.removeChild(event.target)
+        //         }) //click kortle remove hoye jabe child gula
+        // }
 
-        document.getElementsById('addNew').addEventListener('click', function(event) {
+        document.getElementById('addNew').addEventListener('click', function(event) {
             var itemParent = document.getElementById('myList')
             var newItem = document.createElement('li')
             newItem.innerText = 'Brand New Item'
-            itemparent.appendChild(newItem)
+            itemParent.appendChild(newItem)
 
         })
 
@@ -45,9 +45,10 @@
         //     event.stopPropagation(); //shamne ar agabe na mane tor parent k dhobi na
         // })
 
-        // document.getElementById('myList').addEventListener('click', function(event) {
-        //     console.log('myList')
-        // })
+        document.getElementById('myList').addEventListener('click', function(event) {
+            // console.log('myList')
+            event.target.parentNode.removeChild(event.target)
+        })
 
         // document.getElementById('container').addEventListener('click', function(event) {
         //     console.log('Container clicked')
