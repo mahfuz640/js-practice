@@ -22,9 +22,13 @@
         var items = document.getElementsByClassName('item');
         for (let i = 0; i < items.length; i++) {
             var item = items[i];
+            // item.addEventListener('click', function(event) {
+            //     console.log(this, event.target.innerText) //chaile amra akhane this ba taget je komo akta use korte pari
+            // })
+
             item.addEventListener('click', function(event) {
-                console.log(event.target) //chaile amra akhane this ba taget je komo akta use korte pari
-            })
+                    event.target.parentNode.removeChild(event.target)
+                }) //click kortle remove hoye jabe child gula
         }
 
 
